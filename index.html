@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Estimulación Cognitiva y Recreación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación Principales (Tabs) -->
+    <header class="navbar">
+        <div class="logo">ActivaMente</div>
+        <nav>
+            <button class="nav-btn active" onclick="switchTab('home')">Inicio</button>
+            <button class="nav-btn" onclick="switchTab('nosotros')">Sobre Nosotros</button>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- ==================== PESTAÑA 1: HOME ==================== -->
+        <section id="home" class="tab-content active">
+            
+            <!-- Hero Banner -->
+            <div class="hero">
+                <h1>Estimulación Cognitiva y Recreación para Residenciales</h1>
+                <p>Llevamos talleres de juegos, ejercicios de memoria y entretenimiento adaptado directamente a su centro.</p>
+                <a href="#contacto" class="btn-primary">Solicitar Taller Demostrativo Gratis</a>
+            </div>
+
+            <!-- Presentación Breve -->
+            <div class="card intro">
+                <h2>Servicios Integrales para Adultos Mayores</h2>
+                <p>Somos una unipersonal dedicada a desarrollar actividades presenciales de estimulación mental, juegos de mesa y dinámicas grupales para adultos mayores en ELEPEM. Nos trasladamos con todo el material necesario para brindar una experiencia enriquecedora y segura.</p>
+            </div>
+
+            <!-- Planes y Precios -->
+            <h2 class="section-title">Planes y Tarifas</h2>
+            <div class="pricing-grid">
+                
+                <div class="price-card">
+                    <h3>Taller Demostrativo</h3>
+                    <p class="price">¡Gratis!</p>
+                    <p class="price-sub">1 sesión única (45 min)</p>
+                    <ul>
+                        <li>Para conocer la dinámica</li>
+                        <li>Evaluación de grupo</li>
+                        <li>Sin compromiso</li>
+                    </ul>
+                </div>
+
+                <div class="price-card">
+                    <h3>Plan Quincenal</h3>
+                    <p class="price">$3.500 <span class="currency">UYU/mes</span></p>
+                    <p class="price-sub">2 sesiones al mes</p>
+                    <ul>
+                        <li>60 minutos por taller</li>
+                        <li>Materiales incluidos</li>
+                        <li>Dinámicas grupales</li>
+                    </ul>
+                </div>
+
+                <div class="price-card featured">
+                    <span class="badge">Recomendado</span>
+                    <h3>Plan Semanal</h3>
+                    <p class="price">$6.000 <span class="currency">UYU/mes</span></p>
+                    <p class="price-sub">4 sesiones al mes (1 por sem.)</p>
+                    <ul>
+                        <li>Seguimiento cognitivo continuo</li>
+                        <li>Juegos de mesa adaptados</li>
+                        <li>Materiales e insumos incluidos</li>
+                    </ul>
+                </div>
+
+                <div class="price-card">
+                    <h3>Plan Intensivo</h3>
+                    <p class="price">$11.000 <span class="currency">UYU/mes</span></p>
+                    <p class="price-sub">8 sesiones al mes (2 por sem.)</p>
+                    <ul>
+                        <li>Estimulación intensiva</li>
+                        <li>Atención más personalizada</li>
+                        <li>Variedad de ejercicios</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Sección de Contacto -->
+            <div id="contacto" class="card contact-section">
+                <h2>Modos de Contacto</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p><strong>📱 WhatsApp / Tel:</strong> +598 09X XXX XXX</p>
+                        <p><strong>✉️ Email:</strong> contacto@empresa.com</p>
+                        <p><strong>📍 Cobertura:</strong> Montevideo y Canelones</p>
+                        <p><strong>📄 Régimen:</strong> Monotributista (BPS - DGI) — <em>Emitimos factura</em></p>
+                    </div>
+
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado con éxito');">
+                        <input type="text" placeholder="Nombre del Residencial" required>
+                        <input type="text" placeholder="Nombre de Contacto / Cargo" required>
+                        <input type="tel" placeholder="Teléfono o WhatsApp" required>
+                        <textarea placeholder="Mensaje o consulta..." rows="3"></textarea>
+                        <button type="submit" class="btn-primary">Enviar Consulta</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ==================== PESTAÑA 2: SOBRE NOSOTROS ==================== -->
+        <section id="nosotros" class="tab-content">
+            
+            <div class="hero page-header">
+                <h1>Sobre Nuestra Empresa</h1>
+                <p>Promoviendo el envejecimiento activo y saludable en Uruguay.</p>
+            </div>
+
+            <div class="card">
+                <h2>¿Quiénes Somos?</h2>
+                <p>Nacemos con el propósito de acompañar a las personas mayores en residenciales. Entendemos que el juego y la estimulación cognitiva no son solo entretenimiento, sino herramientas fundamentales para preservar la memoria, fomentar la sociabilización y mejorar la calidad de vida.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h2>🎯 Misión</h2>
+                    <p>Brindar servicios integrales de estimulación cognitiva y recreación activa para adultos mayores en residenciales, a través de actividades dinámicas, adaptadas y juegos de mesa. Nos enfocamos en promover el bienestar integral, la sociabilización y el mantenimiento de las capacidades mentales, ofreciendo a los centros un servicio profesional que agregue valor a su propuesta asistencial.</p>
+                </div>
+
+                <div class="card">
+                    <h2>👁️ Visión</h2>
+                    <p>Ser el servicio externo de referencia en animación sociocultural y estimulación cognitiva para residenciales de personas mayores en la región, reconocidos por la calidad pedagógica y humana de nuestras propuestas, adaptándonos continuamente a las necesidades demográficas del país.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Nuestros Valores</h2>
+                <ul class="values-list">
+                    <li><strong>❤️ Empatía y Respeto:</strong> Tratamos a cada residente con paciencia, dignidad y afecto, adaptándonos a sus ritmos individuales.</li>
+                    <li><strong>🧠 Inclusión y Participación:</strong> Diseñamos dinámicas sin frustraciones, adaptadas a personas con distintos grados de movilidad o deterioro cognitivo.</li>
+                    <li><strong>🎲 Innovación y Variedad:</strong> Renovamos constantemente nuestro catálogo de ejercicios, acertijos y juegos de mesa para evitar la monotonía.</li>
+                    <li><strong>🤝 Compromiso Profesional:</strong> Puntualidad, responsabilidad en la asistencia y comunicación fluida con la dirección del residencial.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>¿Cómo Trabajamos en Cada Sesión?</h2>
+                <ol class="workflow-list">
+                    <li><strong>Calentamiento Cognitivo:</strong> Ejercicios breves de atención, lógica o asociación verbal para activar al grupo.</li>
+                    <li><strong>Desarrollo del Juego:</strong> Juegos de mesa adaptados, dinámicas de memoria o ejercicios temáticos en equipo.</li>
+                    <li><strong>Cierre y Sociabilización:</strong> Espacio para compartir impresiones, recuerdos y promover la interacción entre compañeros.</li>
+                </ol>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ActivaMente - Servicios para Adultos Mayores. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JS para cambio de pestañas -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
