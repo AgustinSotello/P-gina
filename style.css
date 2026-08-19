@@ -1,8 +1,8 @@
 /* --- Variables y Estilos Generales --- */
 :root {
-    --primary-color: #2c6e49;
-    --primary-hover: #1e4d33;
-    --accent-color: #ff9f1c;
+    --primary-color: #670808;
+    --primary-hover: #100303;
+    --accent-color: #e08b12;
     --bg-color: #f8f9fa;
     --card-bg: #ffffff;
     --text-color: #333333;
@@ -95,7 +95,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #e08b12;
+    background-color: #594d3d;
 }
 
 .card {
